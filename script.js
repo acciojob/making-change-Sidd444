@@ -8,13 +8,13 @@ const makeChange = (c) => {
 	  }
 	  else if(c>=10){
 		  c-=10;
-		  nickel++;
+		  dime++;
 	  }else if(c>=5){
 		  c-=5;
 		  nickel++;
 	  }else{
 		  c-=1;
-		  penny++;
+		  penny++; 
 	  }
   }
   const ans={"q":quarter,"d":dime,"n":nickel,"p":penny};
